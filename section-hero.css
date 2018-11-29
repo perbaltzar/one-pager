@@ -1,0 +1,24 @@
+.first-hero{
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.headline{
+  position: absolute;
+  color: white;
+  border: solid 1px white;
+  height: 200px;
+  width: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.backdrop {
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+}
