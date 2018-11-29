@@ -3,3 +3,8 @@
   font-family: 'Quicksand', sans-serif;
   font-style: 100;
 }
+body{
+  background-image: url('pictures/background.svg');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
