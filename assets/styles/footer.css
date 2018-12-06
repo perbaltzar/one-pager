@@ -9,11 +9,11 @@
 
 }
 .logo-list-container{
-  width: 50vw;
+  width: 60vw;
   height: 30vh;
 }
 .social-media-container{
-  width: 50vw;
+  width: 40vw;
   height: 30vh;
 }
 .line{
@@ -26,12 +26,12 @@
   padding-right: 10%;
 }
 .logo{
-  width: 40vh;
-  padding-top: 10%;
-  padding-left: 25%;
+  width: 50vh;
+  padding-top: 5vh;
+  padding-left: 10vh;
 }
 .list-container{
-  padding-left: 30%;
+  padding-left: 12vh;
 }
 .social-media{
   height: 100%;
@@ -42,4 +42,12 @@
 }
 .social-media-item{
   padding-right: 1vw;
+}
+.footer-links{
+  list-style-type: none;
+}
+.footer-links li{
+  letter-spacing: 1vh;
+  font-size: 1.3em;
+  padding-top: 2vh;
 }
