@@ -1,0 +1,45 @@
+.footer{
+  height: 40vh;
+  background-color: #DFE8F0;
+  display: flex;
+  flex-flow: column;
+}
+.footer-container{
+  display: flex;
+
+}
+.logo-list-container{
+  width: 50vw;
+  height: 30vh;
+}
+.social-media-container{
+  width: 50vw;
+  height: 30vh;
+}
+.line{
+  height: 5vh;
+  border-bottom: 1px solid black;
+}
+.copywrite{
+  text-align: right;
+  height: 5vh;
+  padding-right: 10%;
+}
+.logo{
+  width: 40vh;
+  padding-top: 10%;
+  padding-left: 25%;
+}
+.list-container{
+  padding-left: 30%;
+}
+.social-media{
+  height: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  padding-right: 5vw;
+}
+.social-media-item{
+  padding-right: 1vw;
+}
