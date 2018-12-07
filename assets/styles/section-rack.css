@@ -16,14 +16,13 @@
   padding: 0px;
   font-size: 30px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-item img {
   object-fit: cover;
   height: 100%;
   width: 100%;
-}
-
-.grid-item p {
-  padding-top: 35%;
 }
