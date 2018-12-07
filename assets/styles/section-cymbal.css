@@ -1,0 +1,25 @@
+.cymbal{
+  margin-top: 10vh;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  background-image: url('../images/cymbal.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cymbal-top-text{
+  font-size: 48px;
+  width: 40vw;
+  align-self: flex-start;
+  padding-top: 10vh;
+  padding-left: 4vw;
+}
+.cymbal-bottom-text{
+  font-size: 48px;
+  width: 30vw;
+  padding-right: 4vw;
+  padding-bottom: 25vh;
+  text-align: right;
+}

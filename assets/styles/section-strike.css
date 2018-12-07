@@ -1,0 +1,25 @@
+.electronics{
+  margin-top: 10vh;
+  height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: space-between;
+  align-items:flex-end;
+  background-image: url('../images/strike-module.png');
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.electronics-top-text{
+  font-size: 48px;
+  width: 50vw;
+  padding-top: 5vh;
+  padding-left: 4vw;
+  align-self: flex-start;
+}
+.electronics-bottom-text{
+  font-size: 48px;
+  width: 60vw;
+  text-align: right;
+  padding-bottom: 5vh;
+  padding-right: 4vw;
+}

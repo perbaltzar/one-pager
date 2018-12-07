@@ -1,0 +1,18 @@
+.video-section{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: column;
+}
+.video{
+  height: 25vh;
+  width: 25vw;
+  padding: 0 3vh;
+  border: none;
+}
+.video-text{
+  font-size: 48px;
+  font-weight: 200;
+  margin-bottom: 16vh;
+}
