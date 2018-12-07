@@ -1,4 +1,29 @@
 .rack {
-  height: 120vh;
+  height: 100vh;
   width: 100vw;
+}
+
+.grid-container {
+  height: 100%;
+  width: 100%;
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding: 0px;
+}
+.grid-item {
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 0px;
+  font-size: 30px;
+  text-align: center;
+}
+
+.grid-item img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.grid-item p {
+  padding-top: 35%;
 }
