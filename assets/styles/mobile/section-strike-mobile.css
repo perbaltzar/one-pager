@@ -1,0 +1,12 @@
+@media screen and (max-width: 1050px) {
+  .electronics{
+    height: 60vh;
+    background-size: contain;
+  }
+  .electronics-top-text{
+    font-size: 3vh;
+  }
+  .electronics-bottom-text{
+    font-size: 3vh;
+  }
+}

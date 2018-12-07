@@ -1,0 +1,26 @@
+@media screen and (max-width: 1050px) {
+  .cymbal{
+    height: 60vh;
+    background-size: contain;
+  }
+  .cymbal-top-text{
+    font-size: 3vh;
+  }
+  .cymbal-bottom-text{
+    font-size: 3vh;
+  }
+}
+/* .cymbal-top-text{
+font-size: 48px;
+width: 40vw;
+align-self: flex-start;
+padding-top: 10vh;
+padding-left: 4vw;
+}
+.cymbal-bottom-text{
+font-size: 48px;
+width: 30vw;
+padding-right: 4vw;
+padding-bottom: 25vh;
+text-align: right;
+} */

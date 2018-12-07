@@ -1,0 +1,16 @@
+@media screen and (max-width: 1050px) {
+  .video-container{
+    display: flex;
+    flex-flow: column;
+
+  }
+  .video{
+    height: 25vh;
+    width: 100vw;
+    padding: 0 3vh;
+    border: none;
+  }
+  .video-text{
+    font-size: 3vh;
+  }
+}
