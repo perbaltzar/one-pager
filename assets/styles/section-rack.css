@@ -7,8 +7,8 @@
   height: 100%;
   width: 100%;
   display: grid;
-  grid-template-rows: 1fr 1fr 1fr;
-  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   padding: 0px;
 }
 .grid-item {
@@ -16,14 +16,13 @@
   padding: 0px;
   font-size: 30px;
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .grid-item img {
   object-fit: cover;
   height: 100%;
   width: 100%;
-}
-
-.grid-item p {
-  padding-top: 35%;
 }
