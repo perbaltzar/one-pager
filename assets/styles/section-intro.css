@@ -1,10 +1,64 @@
 .intro {
-  /* background-color: blue; */
-  height: 120vh;
+  height: 130vh;
   width: 100vw;
 }
 
-.drummer img{
-  height: 400px;
+.pictures {
+  border: 3px solid blue;
+  height: 50vh;
+  width: 100%;
+}
 
+.left-img-div {
+  border: 3px solid black;
+  height: 50%;
+  width: 60%;
+}
+
+.text-container {
+  display: flex;
+  flex-flow: column;
+}
+
+.first-text {
+  /* border: 3px solid red; */
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  order: 1;
+}
+
+.center-text {
+  /* border: 3px solid yellow; */
+  height: 10vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  order: 2;
+}
+
+.second-text {
+  /* border: 3px solid green; */
+  height: 30vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  order: 3;
+}
+
+.inner-text-div {
+  /* border: 3px solid black; */
+  height: 100%;
+  width: 52%;
+  font-size: 36px;
+  font-weight: 100;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-text-div.center {
+  font-size: 48px;
+  font-weight: 400;
 }
