@@ -7,7 +7,7 @@
   .video{
     height: 25vh;
     width: 100vw;
-    padding: 0 3vh;
+    padding: 0;
     border: none;
   }
   .video-text{
