@@ -30,7 +30,7 @@
     /* border: 3px solid black; */
     height: 100%;
     width: 52%;
-    font-size: 36px;
+    /* font-size: 36px; */
     font-weight: 100;
     display: flex;
     justify-content: center;
@@ -38,6 +38,6 @@
   }
 
   .inner-text-div.center {
-    font-size: 48px;
+    /* font-size: 48px; */
   }
 }
