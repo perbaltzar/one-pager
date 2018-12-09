@@ -1,22 +1,35 @@
 .intro {
-  height: 130vh;
+  height: 160vh;
   width: 100vw;
 }
 
 .pictures {
-  border: 3px solid blue;
-  height: 50vh;
+  height: 80vh;
   width: 100%;
+  position: relative;
 }
 
-.left-img-div {
-  border: 3px solid black;
-  height: 50%;
-  width: 60%;
+.left-img-div img {
+  position: absolute;
+  top: 48%;
+  left: 29%;
+  transform: translate(-50%, -50%);
+  height: 57vh;
+  width: 47vw;
+  object-fit: cover;
+}
+
+.right-img-div img {
+  object-fit: cover;
+  position: absolute;
+  top: 65%;
+  left: 71%;
+  transform: translate(-50%, -50%);
+  height: 57vh;
+  width: 47vw;
 }
 
 .text-container {
-  /* border: 5px solid teal; */
   height: 70vh;
   display: flex;
   flex-direction: column;
@@ -49,4 +62,8 @@
 
 .text p:nth-of-type(3) {
   order: 3;
+}
+
+.intro-mobile-img {
+  display: none;
 }
