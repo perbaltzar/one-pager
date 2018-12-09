@@ -10,8 +10,8 @@
   position: absolute;
   color: white;
   border: solid 1px white;
-  height: 200px;
-  width: 400px;
+  height: 20vh;
+  width: 25vw;
   display: flex;
   justify-content: center;
   align-items: center;
