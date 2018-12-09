@@ -2,15 +2,16 @@
   .video-container{
     display: flex;
     flex-flow: column;
-
   }
   .video{
     height: 25vh;
     width: 100vw;
     padding: 0;
     border: none;
+    margin-top: 6vh;
   }
   .video-text{
     font-size: 3vh;
+    margin: 0;
   }
 }
