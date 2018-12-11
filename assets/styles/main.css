@@ -4,14 +4,13 @@
   font-family: 'Quicksand', sans-serif;
   font-style: 100;
 }
-.background-img{
+/* .background-img{
   background-image: url("../../assets/icons/background.svg");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center top;
-  /* background-attachment:fixed; */
   background-origin:border-box;
-}
+} */
 /* .background{
   position:absolute;
   width: 100%;
