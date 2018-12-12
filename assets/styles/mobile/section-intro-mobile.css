@@ -17,6 +17,10 @@
     width: 90%;
   }
 
+  .bigger {
+    width: 80%;
+  }
+
   .text p:nth-of-type(1) {
     order: 2;
   }
