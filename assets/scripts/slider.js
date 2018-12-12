@@ -2,7 +2,7 @@ $(document).ready(function(){
   $('.slider-desktop').slick({
       prevArrow: '<img class="slide-left" src="assets/icons/slider_arrow_mobile.svg">',
       nextArrow: '<img class="slide-right" src="assets/icons/slider_arrow_mobile.svg">',
-      mobileFirst: true
+      mobileFirst: true,
   });
 });
 
