@@ -1,15 +1,13 @@
-/* @media screen and (max-width: 1050px) {
+@media screen and (max-width: 1050px) {
   .background-img{
-    background-image: url("../../icons/background-mobile.svg");
-    background-repeat: no-repeat;
-    background-origin:border-box;
-    background-size: 100%;
+    background-image: none;
 
   }
-} */
-.background{
-  z-index: -100;
-  width: 100vw;
-  height: 590vh;
-  position: absolute;
+  .background{
+    display: block;
+    z-index: -100;
+    width: 100vw;
+    height: 590vh;
+    position: absolute;
+  }
 }

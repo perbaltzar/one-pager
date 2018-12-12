@@ -5,11 +5,13 @@
   align-items: center;
   flex-flow: column;
 }
+@media screen and (min-width: 1050px) {
 .video{
   height: 25vh;
   width: 25vw;
   padding: 0 3vh;
   border: none;
+}
 }
 .video-text{
   font-size: 48px;

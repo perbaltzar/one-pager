@@ -4,14 +4,22 @@
     flex-flow: column;
   }
   .video{
-    height: 25vh;
-    width: 100vw;
+    /* height: 25vh;
+    width: 100vw; */
     padding: 0;
     border: none;
     margin-top: 6vh;
   }
   .video-text{
+    display: flex;
+    justify-content: center;
     font-size: 3vh;
     margin: 0;
+  }
+  .video-text p{
+    width: 80vw;
+  }
+  .video-headline{
+    display: none;
   }
 }

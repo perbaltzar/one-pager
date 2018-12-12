@@ -5,12 +5,12 @@
   }
   .electronics-top-text{
     font-size: 3.5vh;
-    width: 100%;
+    width: 95vw;
     padding-top: 0;
   }
   .electronics-bottom-text{
     font-size: 3.5vh;
-    width: 100%;
+    width: 95vw;
     padding-bottom: 0;
   }
 }
